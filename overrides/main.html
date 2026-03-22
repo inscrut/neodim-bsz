@@ -16,21 +16,31 @@
   <noscript><div><img src="https://mc.yandex.ru/watch/107707686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
   
-  <!-- Базовые SEO meta + OG -->
+  <!-- Основные SEO meta -->
   <meta name="description" content="{{ config.site_description }}">
   <meta name="robots" content="index, follow">
   <meta name="author" content="{{ config.site_author }}">
 
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ config.site_name }}">
   <meta property="og:description" content="{{ config.site_description }}">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
 
   {% if page is defined and page is not none and page.url is defined %}
     <meta property="og:url" content="{{ config.site_url | trim('/') ~ page.url }}">
   {% else %}
-    <!-- Для 404 и других спец-страниц fallback на главную -->
     <meta property="og:url" content="{{ config.site_url }}">
   {% endif %}
 
   <meta property="og:image" content="https://neodim.tech/tremblor.png">
+
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Twitter Cards / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ config.site_name }}">
+  <meta name="twitter:description" content="{{ config.site_description }}">
+  <meta name="twitter:image" content="https://neodim.tech/tremblor.png">
+
 {% endblock %}
