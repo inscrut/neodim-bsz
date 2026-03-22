@@ -1,0 +1,47 @@
+.git-credentials
+.*
+
+# MkDocs сгенерированный сайт
+site/
+site-*
+
+# Виртуальное окружение (venv или .venv)
+.venv/
+venv/
+ENV/
+env/
+
+# Кэш от Material for MkDocs (requirements плагин, etc.)
+.cache/
+.cache/*
+
+# Python / pip временные файлы
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Личные файлы терминала и редакторов
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.gitconfig
+.viminfo
+*~
+.DS_Store
+Thumbs.db
+
+# Редко, но полезно: если используешь IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Если есть другие временные файлы
+*.bak
+*.tmp

@@ -1,0 +1,19 @@
+# Основные пакеты (строго зафиксированные версии для стабильности)
+mkdocs==1.6.1
+mkdocs-material==9.7.4
+
+# Полезные плагины, которые мы упоминали
+mkdocs-git-revision-date-localized-plugin>=1.2
+mkdocs-minify-plugin>=0.8
+
+# Опциональные, но очень полезные для DevOps-документации
+mkdocs-awesome-pages-plugin>=2.9
+mkdocs-macros-plugin>=1.0
+
+# Если используешь поиск с подсветкой и улучшенными сниппетами
+pymdown-extensions>=10.0
+
+# Зависимости, которые обычно тянутся автоматически, но иногда полезно зафиксировать
+pygments>=2.17
+markdown>=3.5
+jinja2>=3.1

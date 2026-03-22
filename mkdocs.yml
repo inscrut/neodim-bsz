@@ -1,0 +1,158 @@
+# Основные настройки проекта
+site_name: Проект Неодим БСЗ - переделка систем зажигания
+site_url: https://bsz.neodim.tech/
+site_description: >-
+  Неодим БСЗ - переделка с контактной на бесконтактную систему зажигания с сохранением заводских характеристик угла опережения зажигания ( УОЗ ).
+site_author: inscrut
+
+# Репозиторий
+#repo_url: https://github.com/inscrut/neodim-bsz
+#repo_name: Neodim/BSZ
+#edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2026 Неодим Технология
+
+# Тема и оформление
+theme:
+  name: material
+  language: ru
+  favicon: https://neodim.tech/tremblor.png
+  logo: https://neodim.tech/tremblor.png
+
+  custom_dir: overrides/
+
+  icon:
+    logo: material/server-network
+    repo: fontawesome/brands/git-alt
+
+  features:
+  # - content.action.edit
+  # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - toc.integrate
+
+  palette:
+    #- media: "(prefers-color-scheme)"
+    #  toggle:
+    #    icon: material/link
+    #    name: Переключить на светлую/тёмную
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+extra_css:
+  - stylesheets/extra.css
+
+# Плагины
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: datetime
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - optimize:                                # оптимизация изображений (PNG/JPG)
+      cache: true
+      print_gain: true                       # показывает экономию по файлам
+      print_gain_summary: true               # итоговая экономия
+      optimize_png_speed: 3                  # баланс скорость/качество
+      optimize_jpg_quality: 75               # лучше 60 по умолчанию
+      # optimize_include:
+      #   - assets/images/*
+  - meta: {}                                 # для .meta.yml файлов в папках (SEO, tags и т.д.)
+
+# Markdown расширения
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      repo: gfdocs
+      user: inscrut
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Дополнительно
+extra:
+  consent:
+    title: Согласие на cookies
+    description: >-
+      Мы используем cookies только для аналитики и улучшения работы сайта.
+    actions:
+      - accept
+      - manage
+
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/bszkit_chat
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/bszkit
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/neodim_workshop
+
+  generator: false
+
+# Навигация
+nav:
+  - Главная: index.md

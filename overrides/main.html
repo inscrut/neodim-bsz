@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107707686', 'ym');
+
+      ym(107707686, 'init', {ssr:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/107707686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+  
+  <!-- Базовые SEO meta + OG -->
+  <meta name="description" content="{{ config.site_description }}">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="{{ config.site_author }}">
+
+  <meta property="og:title" content="{{ config.site_name }}">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <meta property="og:type" content="website">
+
+  {% if page is defined and page is not none and page.url is defined %}
+    <meta property="og:url" content="{{ config.site_url | trim('/') ~ page.url }}">
+  {% else %}
+    <!-- Для 404 и других спец-страниц fallback на главную -->
+    <meta property="og:url" content="{{ config.site_url }}">
+  {% endif %}
+
+  <meta property="og:image" content="https://neodim.tech/tremblor.png">
+{% endblock %}
