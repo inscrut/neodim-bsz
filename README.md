@@ -37,13 +37,14 @@
 
 4. Установите зависимости:
    ```bash
+   python.exe -m pip install --upgrade pip
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
 5. Запустите локальный сервер разработки:
    ```bash
-   mkdocs serve -a 0.0.0.0:3000
+   mkdocs serve -a 0.0.0.0:3000 --livereload
    ```
 
 6. Откройте в браузере:

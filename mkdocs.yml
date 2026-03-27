@@ -82,12 +82,12 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
-  - optimize:                                # оптимизация изображений (PNG/JPG)
-      cache: true
-      print_gain: true                       # показывает экономию по файлам
-      print_gain_summary: true               # итоговая экономия
-      optimize_png_speed: 3                  # баланс скорость/качество
-      optimize_jpg_quality: 75               # лучше 60 по умолчанию
+#  - optimize:                                # оптимизация изображений (PNG/JPG)
+#      cache: true
+#      print_gain: true                       # показывает экономию по файлам
+#      print_gain_summary: true               # итоговая экономия
+#      optimize_png_speed: 3                  # баланс скорость/качество
+#      optimize_jpg_quality: 75               # лучше 60 по умолчанию
       # optimize_include:
       #   - assets/images/*
   - meta: {}                                 # для .meta.yml файлов в папках (SEO, tags и т.д.)
