@@ -9,6 +9,7 @@ lmstudio.json
 # MkDocs сгенерированный сайт
 site/
 site-*
+!docs/legal/site-description.md
 
 # Виртуальное окружение (venv или .venv)
 .venv/
