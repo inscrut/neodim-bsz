@@ -207,6 +207,7 @@ nav:
   - Настройка и диагностика:
       - Настройка момента зажигания: service/ignition-timing.md
       - Алгоритм проверки БСЗ: service/bsz-check-algorithm.md
+      - Проблемы и решения: service/problems-and-solutions.md
   - О нас: 
     - О нас: about.md
     - Политика конфиденциальности: legal/privacy.md
