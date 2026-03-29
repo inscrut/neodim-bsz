@@ -6,6 +6,6 @@
 
 ## Типовая схема
 
-![Типовая схема четырёхконтурного БСЗ](../assets/wiki/bsz-scheme-quad-circuit.png){ width="720" }
+![Типовая схема четырёхконтурного БСЗ](../assets/wiki/schemes/bsz-scheme-quad-circuit.png){ width="720" }
 
 *Типовая схема четырёхконтурного БСЗ.*

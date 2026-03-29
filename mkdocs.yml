@@ -200,7 +200,9 @@ nav:
         - Установка комплекта ЗИЛ / ГАЗ (V8): instructions/video-install-zil-v8.md
 
   - Компоненты:
+      - Типовой список для сборки БСЗ: components/buy-list.md
       - Датчик Холла: components/hall-sensor.md
+      - Катушки зажигания: components/ignition-coils.md
       - Жгут проводки БСЗ: components/wiring-harness-dbsz.md
       - Коммутатор 76.3774: components/commutator-763774.md
       - МД-1: components/md-1.md
