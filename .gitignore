@@ -5,6 +5,8 @@ tools/
 sitemap_fetched.xml
 lmstudio.json
 
+items/
+
 
 # MkDocs сгенерированный сайт
 site/

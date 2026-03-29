@@ -162,26 +162,54 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
-  - Наборы по маркам:
-      - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
-      - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
-      - ГАЗ / УАЗ: kits/gaz-uaz.md
-      - ВАЗ: kits/vaz.md
-      - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
-  - Теория и схемы:
-      - Одноконтурное БСЗ: theory/single-circuit.md
-      - Двухконтурное БСЗ: theory/dual-circuit.md
-      - Четырёхконтурное БСЗ: theory/four-circuit.md
+  - Наборы БСЗ Неодим:
+      - Как определить необходимый комплект БСЗ: kits/how-to-choose-kit.md
+      - Модели автомобилей:
+        - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
+        - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
+        - ГАЗ / УАЗ: kits/gaz-uaz.md
+        - ВАЗ: kits/vaz.md
+        - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
+      - Распределители зажигания:
+        - "Р-107, Р-118, Р-114": distributors/distributor-r114.md
+        - 17.3706: distributors/distributor-173706.md
+        - Р-147: distributors/distributor-r147.md
+        - 4701.3706: distributors/distributor-47013706.md
+        - 4708.3706: distributors/distributor-47083706.md
+        - "30.3706, 3810.3706": distributors/distributor-303706-3810.md
+        - 40.3706: distributors/distributor-403706.md
+        - "1908.3706, 3312.3706": distributors/distributor-1908-3312.md
+        - "24.3706, 24.3706а": distributors/distributor-243706.md
+        - "2402.3706, 2402.3706-10": distributors/distributor-2402.md
+        - Р133-01: distributors/distributor-r133-01.md
+      - Прочие товары Ozon: kits/ozon-other.md
+  - Инструкции и схемы:
+      - Схемы БСЗ:
+        - Одноконтурное БСЗ: theory/single-circuit.md
+        - Двухконтурное БСЗ: theory/dual-circuit.md
+        - Четырёхконтурное БСЗ: theory/four-circuit.md
+      - "Подключение тахометра (два контура)": instructions/video-tachometer-connection.md
+      - Видео-инструкции:
+        - Доработка датчика Холла: instructions/video-hall-sensor-mod.md
+        - "Установка комплекта ЗАЗ / ЛуАЗ (новая версия)": instructions/video-install-zaz-luaz-new.md
+        - "Установка комплекта ЗАЗ / ЛуАЗ (старая версия)": instructions/video-install-zaz-luaz-old.md
+        - Установка комплекта Иж / Москвич / АЗЛК: instructions/video-install-izh-moskvich.md
+        - Установка комплекта ГАЗ / УАЗ: instructions/video-install-gaz-uaz.md
+        - Установка комплекта ВАЗ 30.3706 / 3810.3706: instructions/video-install-vaz-303706.md
+        - Установка комплекта ВАЗ 40.3706: instructions/video-install-vaz-403706.md
+        - Установка комплекта ЗИЛ / ГАЗ (V8): instructions/video-install-zil-v8.md
+
   - Компоненты:
       - Датчик Холла: components/hall-sensor.md
+      - Жгут проводки БСЗ: components/wiring-harness-dbsz.md
       - Коммутатор 76.3774: components/commutator-763774.md
       - МД-1: components/md-1.md
-      - Распределитель Р-114: components/distributor-r114.md
-  - Эксплуатация и диагностика:
+  - Настройка и диагностика:
       - Настройка момента зажигания: service/ignition-timing.md
       - Алгоритм проверки БСЗ: service/bsz-check-algorithm.md
-  - О сайте и правовая информация:
-      - Описание: legal/site-description.md
-      - Политика конфиденциальности: legal/privacy.md
-      - Отказ от ответственности: legal/disclaimer.md
-      - Авторские права: legal/copyright.md
+  - О нас: 
+    - О нас: about.md
+    - Политика конфиденциальности: legal/privacy.md
+    - Отказ от ответственности: legal/disclaimer.md
+    - Авторские права: legal/copyright.md
+  - Контакты: contact.md
