@@ -1,6 +1,11 @@
 .git-credentials
 .*
 
+tools/
+sitemap_fetched.xml
+lmstudio.json
+
+
 # MkDocs сгенерированный сайт
 site/
 site-*

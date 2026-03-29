@@ -5,6 +5,10 @@ site_description: >-
   Неодим БСЗ - переделка с контактной на бесконтактную систему зажигания с сохранением заводских характеристик угла опережения зажигания ( УОЗ ).
 site_author: inscrut
 
+# Фрагменты для pymdownx.snippets — не отдельные страницы в сборке
+exclude_docs: |
+  snippets/*.md
+
 # Репозиторий
 #repo_url: https://github.com/inscrut/neodim-bsz
 #repo_name: Neodim/BSZ
@@ -125,7 +129,9 @@ markdown_extensions:
       user: inscrut
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - docs
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -156,3 +162,26 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
+  - Наборы по маркам:
+      - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
+      - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
+      - ГАЗ / УАЗ: kits/gaz-uaz.md
+      - ВАЗ: kits/vaz.md
+      - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
+  - Теория и схемы:
+      - Одноконтурное БСЗ: theory/single-circuit.md
+      - Двухконтурное БСЗ: theory/dual-circuit.md
+      - Четырёхконтурное БСЗ: theory/four-circuit.md
+  - Компоненты:
+      - Датчик Холла: components/hall-sensor.md
+      - Коммутатор 76.3774: components/commutator-763774.md
+      - МД-1: components/md-1.md
+      - Распределитель Р-114: components/distributor-r114.md
+  - Эксплуатация и диагностика:
+      - Настройка момента зажигания: service/ignition-timing.md
+      - Алгоритм проверки БСЗ: service/bsz-check-algorithm.md
+  - О сайте и правовая информация:
+      - Описание: legal/site-description.md
+      - Политика конфиденциальности: legal/privacy.md
+      - Отказ от ответственности: legal/disclaimer.md
+      - Авторские права: legal/copyright.md
