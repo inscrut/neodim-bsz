@@ -170,6 +170,7 @@ nav:
         - ГАЗ / УАЗ: kits/gaz-uaz.md
         - ВАЗ: kits/vaz.md
         - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
+        - Nissan: kits/nissan.md
       - Распределители зажигания:
         - "Р-107, Р-118, Р-114": distributors/distributor-r114.md
         - 17.3706: distributors/distributor-173706.md
@@ -182,6 +183,7 @@ nav:
         - "24.3706, 24.3706а": distributors/distributor-243706.md
         - "2402.3706, 2402.3706-10": distributors/distributor-2402.md
         - Р133-01: distributors/distributor-r133-01.md
+        - D4R87-07: distributors/distributor-d4r87-07.md
       - Прочие товары Ozon: kits/ozon-other.md
   - Инструкции и схемы:
       - Схемы БСЗ:
