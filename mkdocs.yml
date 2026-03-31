@@ -168,6 +168,7 @@ nav:
         - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
         - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
         - ГАЗ / УАЗ: kits/gaz-uaz.md
+        - "ГАЗ (6 цил.)": kits/gaz-v6.md
         - ВАЗ: kits/vaz.md
         - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
         - Nissan: kits/nissan.md
@@ -180,6 +181,7 @@ nav:
         - "30.3706, 3810.3706": distributors/distributor-303706-3810.md
         - 40.3706: distributors/distributor-403706.md
         - "1908.3706, 3312.3706": distributors/distributor-1908-3312.md
+        - "23.3706, 2301.3706": distributors/distributor-233706-2301.md
         - "24.3706, 24.3706а": distributors/distributor-243706.md
         - "2402.3706, 2402.3706-10": distributors/distributor-2402.md
         - Р133-01: distributors/distributor-r133-01.md
