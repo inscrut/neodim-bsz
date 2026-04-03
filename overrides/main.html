@@ -1,33 +1,9 @@
 {% extends "base.html" %}
 
-{% block extrahead %}
-  
-  <script type="text/javascript">
-      (function(m,e,t,r,i,k,a){
-          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-          m[i].l=1*new Date();
-          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107707686', 'ym');
+{% block extrahead %}  
+  <!-- SEO meta -->
 
-      ym(107707686, 'init', {ssr:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/107707686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C671TWD032"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-C671TWD032');
-  </script>
-  
-  <!-- Основные SEO meta -->
-
-  <link rel="icon" href="https://bsz.neodim.tech/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="https://bsz.neodim.tech/favicon.ico">
 
   <meta name="description" content="{{ config.site_description }}">
   <meta name="robots" content="index, follow">
@@ -54,5 +30,26 @@
   <meta name="twitter:title" content="{{ config.site_name }}">
   <meta name="twitter:description" content="{{ config.site_description }}">
   <meta name="twitter:image" content="https://neodim.tech/tremblor.png">
+
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107707686', 'ym');
+
+    ym(107707686, 'init', {ssr:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/107707686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C671TWD032"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C671TWD032');
+  </script>
 
 {% endblock %}
