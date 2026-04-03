@@ -79,6 +79,11 @@ plugins:
         - ru
         - en
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - glightbox:
+      zoomable: true
+      draggable: true
+      auto_caption: true
+      caption_position: bottom
   - git-revision-date-localized:
       enable_creation_date: false
       type: datetime
