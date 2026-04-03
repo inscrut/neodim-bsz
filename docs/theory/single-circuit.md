@@ -31,4 +31,4 @@
 
 Надёжность повышает [двухконтурная система](dual-circuit.md) (т.н. [wasted spark](https://en.wikipedia.org/wiki/Wasted_spark_system)): фактически два одноконтурных канала — 1–4 и 2–3 цилиндры.
 
-Для восьми цилиндров см. [четыре контура](four-circuit.md).
+Для шести цилиндров — [три контура](three-circuit.md); для восьми — [четыре контура](four-circuit.md).

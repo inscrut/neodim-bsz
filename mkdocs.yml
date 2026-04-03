@@ -198,8 +198,10 @@ nav:
       - Прочие товары Ozon: kits/ozon-other.md
   - Инструкции и схемы:
       - Схемы БСЗ:
+        - Сборка системы по схеме: theory/build-circuit.md
         - Одноконтурное БСЗ: theory/single-circuit.md
         - Двухконтурное БСЗ: theory/dual-circuit.md
+        - Трёхконтурное БСЗ: theory/three-circuit.md
         - Четырёхконтурное БСЗ: theory/four-circuit.md
       - "Подключение тахометра (два контура)": instructions/video-tachometer-connection.md
       - Видео-инструкции:
