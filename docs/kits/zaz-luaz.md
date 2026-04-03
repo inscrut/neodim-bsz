@@ -92,3 +92,9 @@
 ### Старая версия наборов {#kits-old-version}
 
 --8<-- "snippets/vk-install-kits-old.md"
+
+### Доработка датчика Холла {#video-hall-sensor-mod}
+
+--8<-- "snippets/vk-hall-sensor-mod.md"
+
+[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md)

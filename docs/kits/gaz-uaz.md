@@ -103,4 +103,8 @@
 
 --8<-- "snippets/vk-install-gaz-uaz.md"
 
-Видео и пошаговая доработка датчика: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video).
+### Доработка датчика Холла {#video-hall-sensor-mod}
+
+--8<-- "snippets/vk-hall-sensor-mod.md"
+
+Текст и схемы: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video). Отдельная страница: [инструкция](../instructions/video-hall-sensor-mod.md).

@@ -27,6 +27,12 @@
 
 **Схемы:** принципиальная картина двух контуров и ВВ — на странице [Двухконтурное БСЗ](../theory/dual-circuit.md) (типовая схема в начале). **Тахометр** при двух коммутаторах (развязка диодами): [Подключение тахометра (два контура)](../instructions/video-tachometer-connection.md).
 
+## Видео: доработка датчика Холла {#video-hall-sensor-mod}
+
+--8<-- "snippets/vk-hall-sensor-mod.md"
+
+[Инструкция](../instructions/video-hall-sensor-mod.md) · [Датчик Холла](../components/hall-sensor.md)
+
 **После сборки:** [Настройка момента зажигания](../service/ignition-timing.md), [алгоритм проверки БСЗ](../service/bsz-check-algorithm.md), при сбоях — [Проблемы и решения](../service/problems-and-solutions.md).
 
 Если всё же переводите машину на **одноконтур** с бегунком и штатной крышкой — ориентир по корзине: [Типовой список → одноконтурная система](../components/buy-list.md#parts-single-circuit).

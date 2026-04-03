@@ -80,4 +80,8 @@
 
 --8<-- "snippets/vk-install-vaz-403706.md"
 
-Доработка датчика Холла: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video).
+## Видео: доработка датчика Холла {#video-hall-sensor-mod}
+
+--8<-- "snippets/vk-hall-sensor-mod.md"
+
+[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md)

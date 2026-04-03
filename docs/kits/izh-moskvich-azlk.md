@@ -48,4 +48,8 @@
 
 --8<-- "snippets/vk-install-kits-new.md"
 
-Доработка датчика Холла: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video). Готовые датчики 1 шт. / 2 шт.: [Датчик Холла](../components/hall-sensor.md#neodim-hall-kits).
+### Доработка датчика Холла {#video-hall-sensor-mod}
+
+--8<-- "snippets/vk-hall-sensor-mod.md"
+
+Готовые датчики 1 шт. / 2 шт.: [Датчик Холла](../components/hall-sensor.md#neodim-hall-kits). Подробнее о доработке: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md).
