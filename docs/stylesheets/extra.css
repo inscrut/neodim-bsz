@@ -1,3 +1,26 @@
+/* Виджет группы VK: 50% контента; ширина в px задаётся в VK.Widgets.Group (см. snippets) */
+.vk-group-widget-wrap {
+  width: 50%;
+  max-width: 100%;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+.vk-group-widget-wrap #vk_groups {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.vk-group-widget-wrap iframe {
+  width: 100% !important;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Кнопка «Напишите нам» VK (ContactUs, см. snippets) */
+.vk-contact-us-widget-wrap {
+  margin: 1rem 0;
+}
+
 /* Встраивание VK Video (iframe) */
 .vk-video-wrap {
   position: relative;
