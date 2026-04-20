@@ -20,23 +20,30 @@
 
 Отдельные позиции на сайте:
 
-- [Датчик Холла](../components/hall-sensor.md) — для сырых экземпляров см. [доработку датчика](../instructions/video-hall-sensor-mod.md).
+- [Датчик Холла](../components/hall-sensor.md) — для сырых экземпляров см. [доработку датчика](../guide/hall-sensor-mod.md).
 - [Коммутатор 76.3774](../components/commutator-763774.md).
 - [Катушки зажигания → двухконтурная система](../components/ignition-coils.md#coils-dual-circuit) (модуль **2111** или две катушки по схеме из списка).
 - [Жгут проводки БСЗ](../components/wiring-harness-dbsz.md#diy-harness-two-circuits) — разводка двух жгутов ВАЗ 2105 и разъёма под модуль **2111**; при необходимости — готовый жгут на той же странице.
 
-**Схемы:** принципиальная картина двух контуров и ВВ — на странице [Двухконтурное БСЗ](../theory/dual-circuit.md) (типовая схема в начале). **Тахометр** при двух коммутаторах (развязка диодами): [Подключение тахометра (два контура)](../instructions/video-tachometer-connection.md).
+**Схемы:** принципиальная картина двух контуров и ВВ — на странице [Двухконтурное БСЗ](../theory/dual-circuit.md) (типовая схема в начале). **Тахометр** при двух коммутаторах (развязка диодами): [Подключение тахометра (два контура)](../guide/tachometer-connection.md).
 
 ## Видео: доработка датчика Холла {#video-hall-sensor-mod}
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-[Инструкция](../instructions/video-hall-sensor-mod.md) · [Датчик Холла](../components/hall-sensor.md)
+[Инструкция](../guide/hall-sensor-mod.md) · [Датчик Холла](../components/hall-sensor.md)
 
-**После сборки:** [Настройка момента зажигания](../service/ignition-timing.md), [алгоритм проверки БСЗ](../service/bsz-check-algorithm.md), при сбоях — [Проблемы и решения](../service/problems-and-solutions.md).
+**После сборки:** [Настройка момента зажигания](../guide/ignition-timing.md), [алгоритм проверки БСЗ](../guide/bsz-check-algorithm.md), при сбоях — [Проблемы и решения](../guide/problems-and-solutions.md).
 
 Если всё же переводите машину на **одноконтур** с бегунком и штатной крышкой — ориентир по корзине: [Типовой список → одноконтурная система](../components/buy-list.md#parts-single-circuit).
 
 ![Крышка с двумя разъёмами датчиков Холла (ASA-CF)](../assets/wiki/distributors/vny30/d4r-cover.jpg){ width="480" }
 
 ![Внутренний вид: скан корпуса и детали комплекта (ABS + ASA-CF)](../assets/wiki/distributors/vny30/d4r-view.jpg){ width="480" }
+
+## Смотрите также {#see-also}
+
+- [Распределитель D4R87-07](../distributors/distributor-d4r87-07.md).
+- [Двухконтурное БСЗ](../theory/dual-circuit.md).
+- [Типовой список компонентов → двухконтурная система](../components/buy-list.md#parts-dual-circuit).
+- [Руководство → Сборка системы](../guide/build-circuit.md) · [проверка](../guide/bsz-check-algorithm.md) · [настройка](../guide/ignition-timing.md).

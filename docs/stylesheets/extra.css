@@ -47,3 +47,17 @@
   --md-typeset-color:           #ffffff;
   --md-typeset-a-color:         #FFAA44;
 }
+
+/* Правовые ссылки в футере (override overrides/partials/copyright.html) */
+.md-copyright__legal {
+  margin-bottom: 0.3rem;
+  font-size: 0.7rem;
+  opacity: 0.85;
+}
+.md-copyright__legal a {
+  color: inherit;
+  text-decoration: none;
+}
+.md-copyright__legal a:hover {
+  text-decoration: underline;
+}

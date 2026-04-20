@@ -23,3 +23,8 @@
 | Ozon | [карточка товара](https://ozon.ru/product/1918856949) |
 | SKU | **1918856949** |
 | Артикул поиска | **[Neodim_t42_coil](https://www.ozon.ru/search/?text=Neodim_t42_coil)** |
+
+## Смотрите также {#see-also}
+
+- [Наборы БСЗ Неодим](index.md).
+- [Контакты](../contact.md) — если нужно разработать что-то по ТЗ.

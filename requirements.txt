@@ -6,6 +6,9 @@ mkdocs-material==9.7.4
 mkdocs-git-revision-date-localized-plugin>=1.2
 mkdocs-minify-plugin>=0.8
 mkdocs-glightbox
+# ВАЖНО: mkdocs-redirects 1.2.3 тянет пакет "properdocs", который встраивает
+# нежелательные рекламные сообщения в лог сборки. Фиксируем 1.2.2.
+mkdocs-redirects==1.2.2
 
 # Опциональные, но очень полезные для DevOps-документации
 mkdocs-awesome-pages-plugin>=2.9

@@ -34,4 +34,12 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-Датчик Холла ВАЗ 2108 — типовой для переделки контактного трамблёра под БСЗ. [Датчик Холла](../components/hall-sensor.md) · [инструкция](../instructions/video-hall-sensor-mod.md)
+Датчик Холла ВАЗ 2108 — типовой для переделки контактного трамблёра под БСЗ. [Датчик Холла](../components/hall-sensor.md) · [инструкция](../guide/hall-sensor-mod.md)
+
+## Смотрите также {#see-also}
+
+- [Распределители 23.3706, 2301.3706](../distributors/distributor-233706-2301.md).
+- [Трёхконтурное БСЗ](../theory/three-circuit.md) · [Двухконтурное БСЗ](../theory/dual-circuit.md).
+- [Типовой список компонентов → трёхконтурная система](../components/buy-list.md#parts-three-circuit).
+- [Руководство → Сборка, проверка, настройка](../guide/build-circuit.md).
+- [Видео-архив](../videos/index.md).

@@ -7,3 +7,10 @@
 ![Крышка с двумя датчиками Холла](../assets/wiki/distributors/vny30/d4r-cover.jpg){ width="480" }
 
 ![Сечение/сборка с деталями комплекта](../assets/wiki/distributors/vny30/d4r-view.jpg){ width="480" }
+
+## Смотрите также {#see-also}
+
+- [Nissan — комплекты БСЗ Неодим](../kits/nissan.md) — полное описание набора и схемы.
+- [Двухконтурное БСЗ](../theory/dual-circuit.md).
+- [Типовой список компонентов → двухконтурная система](../components/buy-list.md#parts-dual-circuit).
+- [Как определить необходимый комплект БСЗ](../kits/how-to-choose-kit.md).

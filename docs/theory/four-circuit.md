@@ -13,3 +13,11 @@
 ![Расположение датчиков на четырех контурном БСЗ кронштейне](../assets/wiki/distributors/v8/v8-hall-places.jpg){ width="720" }
 
 *Расположение датчиков Холла и пар цилиндров*
+
+## Смотрите также {#see-also}
+
+- [Двухконтурное БСЗ](dual-circuit.md) — идея схемы.
+- [Трёхконтурное БСЗ](three-circuit.md) — для 6 цилиндров.
+- [ЗИЛ / ГАЗ (V8) — комплекты](../kits/zil-gaz-v8.md).
+- [Распределители 24.3706](../distributors/distributor-243706.md) · [2402.3706](../distributors/distributor-2402.md) · [Р133-01](../distributors/distributor-r133-01.md).
+- [Типовой список компонентов → четырёхконтурная система](../components/buy-list.md#parts-four-circuit).

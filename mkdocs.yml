@@ -9,10 +9,9 @@ site_author: inscrut
 exclude_docs: |
   snippets/*.md
 
-# Репозиторий
-#repo_url: https://github.com/inscrut/neodim-bsz
-#repo_name: Neodim/BSZ
-#edit_uri: edit/main/docs/
+# Правовые страницы доступны по URL, но живут только в футере (не в основной навигации)
+not_in_nav: |
+  legal/*.md
 
 # Copyright
 copyright: Copyright &copy; 2026 Неодим Технология
@@ -31,28 +30,23 @@ theme:
     repo: fontawesome/brands/git-alt
 
   features:
-  # - content.action.edit
-  # - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tooltips
-    - navigation.sections
     - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.tracking
-    - navigation.indexes
+    - navigation.footer
+    - navigation.prune
     - search.suggest
     - search.highlight
     - search.share
     - toc.follow
-    - toc.integrate
 
   palette:
-    #- media: "(prefers-color-scheme)"
-    #  toggle:
-    #    icon: material/link
-    #    name: Переключить на светлую/тёмную
-
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
@@ -91,15 +85,26 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
-#  - optimize:                                # оптимизация изображений (PNG/JPG)
-#      cache: true
-#      print_gain: true                       # показывает экономию по файлам
-#      print_gain_summary: true               # итоговая экономия
-#      optimize_png_speed: 3                  # баланс скорость/качество
-#      optimize_jpg_quality: 75               # лучше 60 по умолчанию
-      # optimize_include:
-      #   - assets/images/*
-  - meta: {}                                 # для .meta.yml файлов в папках (SEO, tags и т.д.)
+  - meta: {}
+  - redirects:
+      redirect_maps:
+        # Перенос раздела «Схемы БСЗ» → «Руководство»
+        theory/build-circuit.md: guide/build-circuit.md
+        # Перенос «Настройка и диагностика» → «Руководство»
+        service/bsz-check-algorithm.md: guide/bsz-check-algorithm.md
+        service/ignition-timing.md: guide/ignition-timing.md
+        service/problems-and-solutions.md: guide/problems-and-solutions.md
+        # Перенос текстовых инструкций → «Руководство»
+        instructions/video-tachometer-connection.md: guide/tachometer-connection.md
+        instructions/video-hall-sensor-mod.md: guide/hall-sensor-mod.md
+        # Удалённые страницы-заглушки с VK-виджетами → страницы соответствующих наборов
+        instructions/video-install-zaz-luaz-new.md: kits/zaz-luaz.md
+        instructions/video-install-zaz-luaz-old.md: kits/zaz-luaz.md
+        instructions/video-install-izh-moskvich.md: kits/izh-moskvich-azlk.md
+        instructions/video-install-gaz-uaz.md: kits/gaz-uaz.md
+        instructions/video-install-vaz-303706.md: kits/vaz.md
+        instructions/video-install-vaz-403706.md: kits/vaz.md
+        instructions/video-install-zil-v8.md: kits/zil-gaz-v8.md
 
 # Markdown расширения
 markdown_extensions:
@@ -171,63 +176,56 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
+  - С чего начать: guide/index.md
+  - Теория БСЗ:
+      - theory/index.md
+      - Одноконтурное БСЗ: theory/single-circuit.md
+      - Двухконтурное БСЗ: theory/dual-circuit.md
+      - Трёхконтурное БСЗ: theory/three-circuit.md
+      - Четырёхконтурное БСЗ: theory/four-circuit.md
+  - Руководство:
+      - guide/index.md
+      - Сборка системы по схеме: guide/build-circuit.md
+      - Подключение тахометра (два контура): guide/tachometer-connection.md
+      - Алгоритм проверки БСЗ: guide/bsz-check-algorithm.md
+      - Настройка момента зажигания: guide/ignition-timing.md
+      - Доработка датчика Холла: guide/hall-sensor-mod.md
+      - Проблемы и решения: guide/problems-and-solutions.md
   - Наборы БСЗ Неодим:
-      - Как определить необходимый комплект БСЗ: kits/how-to-choose-kit.md
+      - kits/index.md
+      - Как определить комплект: kits/how-to-choose-kit.md
       - Модели автомобилей:
-        - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
-        - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
-        - ГАЗ / УАЗ: kits/gaz-uaz.md
-        - "ГАЗ (6 цил.)": kits/gaz-v6.md
-        - ВАЗ: kits/vaz.md
-        - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
-        - Nissan: kits/nissan.md
+          - ЗАЗ / ЛуАЗ: kits/zaz-luaz.md
+          - Иж / Москвич / АЗЛК: kits/izh-moskvich-azlk.md
+          - ГАЗ / УАЗ: kits/gaz-uaz.md
+          - "ГАЗ (6 цил.)": kits/gaz-v6.md
+          - ВАЗ: kits/vaz.md
+          - ЗИЛ / ГАЗ (8 цил.): kits/zil-gaz-v8.md
+          - Nissan: kits/nissan.md
       - Распределители зажигания:
-        - "Р-107, Р-118, Р-114": distributors/distributor-r114.md
-        - 17.3706: distributors/distributor-173706.md
-        - Р-147: distributors/distributor-r147.md
-        - 4701.3706: distributors/distributor-47013706.md
-        - 4708.3706: distributors/distributor-47083706.md
-        - "30.3706, 3810.3706": distributors/distributor-303706-3810.md
-        - 40.3706: distributors/distributor-403706.md
-        - "1908.3706, 3312.3706": distributors/distributor-1908-3312.md
-        - "23.3706, 2301.3706": distributors/distributor-233706-2301.md
-        - "24.3706, 24.3706а": distributors/distributor-243706.md
-        - "2402.3706, 2402.3706-10": distributors/distributor-2402.md
-        - Р133-01: distributors/distributor-r133-01.md
-        - D4R87-07: distributors/distributor-d4r87-07.md
-      - Прочие товары Ozon: kits/ozon-other.md
-  - Инструкции и схемы:
-      - Схемы БСЗ:
-        - Сборка системы по схеме: theory/build-circuit.md
-        - Одноконтурное БСЗ: theory/single-circuit.md
-        - Двухконтурное БСЗ: theory/dual-circuit.md
-        - Трёхконтурное БСЗ: theory/three-circuit.md
-        - Четырёхконтурное БСЗ: theory/four-circuit.md
-      - "Подключение тахометра (два контура)": instructions/video-tachometer-connection.md
-      - Видео-инструкции:
-        - Доработка датчика Холла: instructions/video-hall-sensor-mod.md
-        - "Установка комплекта ЗАЗ / ЛуАЗ (новая версия)": instructions/video-install-zaz-luaz-new.md
-        - "Установка комплекта ЗАЗ / ЛуАЗ (старая версия)": instructions/video-install-zaz-luaz-old.md
-        - Установка комплекта Иж / Москвич / АЗЛК: instructions/video-install-izh-moskvich.md
-        - Установка комплекта ГАЗ / УАЗ: instructions/video-install-gaz-uaz.md
-        - Установка комплекта ВАЗ 30.3706 / 3810.3706: instructions/video-install-vaz-303706.md
-        - Установка комплекта ВАЗ 40.3706: instructions/video-install-vaz-403706.md
-        - Установка комплекта ЗИЛ / ГАЗ (V8): instructions/video-install-zil-v8.md
-
+          - distributors/index.md
+          - "Р-107, Р-118, Р-114": distributors/distributor-r114.md
+          - 17.3706: distributors/distributor-173706.md
+          - Р-147: distributors/distributor-r147.md
+          - 4701.3706: distributors/distributor-47013706.md
+          - 4708.3706: distributors/distributor-47083706.md
+          - "30.3706, 3810.3706": distributors/distributor-303706-3810.md
+          - 40.3706: distributors/distributor-403706.md
+          - "1908.3706, 3312.3706": distributors/distributor-1908-3312.md
+          - "23.3706, 2301.3706": distributors/distributor-233706-2301.md
+          - "24.3706, 24.3706а": distributors/distributor-243706.md
+          - "2402.3706, 2402.3706-10": distributors/distributor-2402.md
+          - Р133-01: distributors/distributor-r133-01.md
+          - D4R87-07: distributors/distributor-d4r87-07.md
+      - Дополнительные товары: kits/ozon-other.md
   - Компоненты:
+      - components/index.md
       - Типовой список для сборки БСЗ: components/buy-list.md
       - Датчик Холла: components/hall-sensor.md
       - Катушки зажигания: components/ignition-coils.md
       - Жгут проводки БСЗ: components/wiring-harness-dbsz.md
       - Коммутатор 76.3774: components/commutator-763774.md
       - МД-1: components/md-1.md
-  - Настройка и диагностика:
-      - Настройка момента зажигания: service/ignition-timing.md
-      - Алгоритм проверки БСЗ: service/bsz-check-algorithm.md
-      - Проблемы и решения: service/problems-and-solutions.md
-  - О нас: 
-    - О нас: about.md
-    - Политика конфиденциальности: legal/privacy.md
-    - Отказ от ответственности: legal/disclaimer.md
-    - Авторские права: legal/copyright.md
+  - Видео-архив: videos/index.md
   - Контакты: contact.md
+  - О нас: about.md

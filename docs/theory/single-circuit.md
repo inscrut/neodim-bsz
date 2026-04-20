@@ -32,3 +32,10 @@
 Надёжность повышает [двухконтурная система](dual-circuit.md) (т.н. [wasted spark](https://en.wikipedia.org/wiki/Wasted_spark_system)): фактически два одноконтурных канала — 1–4 и 2–3 цилиндры.
 
 Для шести цилиндров — [три контура](three-circuit.md); для восьми — [четыре контура](four-circuit.md).
+
+## Смотрите также {#see-also}
+
+- [Двухконтурное БСЗ](dual-circuit.md) · [Трёхконтурное БСЗ](three-circuit.md) · [Четырёхконтурное БСЗ](four-circuit.md).
+- [Руководство → Сборка системы](../guide/build-circuit.md) · [Алгоритм проверки БСЗ](../guide/bsz-check-algorithm.md).
+- [Типовой список компонентов → одноконтурная система](../components/buy-list.md#parts-single-circuit).
+- [Датчик Холла](../components/hall-sensor.md) · [Коммутатор 76.3774](../components/commutator-763774.md).

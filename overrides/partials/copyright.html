@@ -1,0 +1,24 @@
+{#-
+  Override стандартного footer-copyright: добавляем правовые ссылки
+  (конфиденциальность, отказ от ответственности, авторские права).
+-#}
+<div class="md-copyright">
+  <div class="md-copyright__legal">
+    <a href="{{ 'legal/privacy/' | url }}">Политика конфиденциальности</a>
+    &nbsp;·&nbsp;
+    <a href="{{ 'legal/disclaimer/' | url }}">Отказ от ответственности</a>
+    &nbsp;·&nbsp;
+    <a href="{{ 'legal/copyright/' | url }}">Авторские права</a>
+  </div>
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+</div>

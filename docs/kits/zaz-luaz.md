@@ -97,4 +97,12 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md)
+[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../guide/hall-sensor-mod.md)
+
+## Смотрите также {#see-also}
+
+- [Распределители Р-107, Р-118, Р-114](../distributors/distributor-r114.md) · [17.3706](../distributors/distributor-173706.md).
+- [Одноконтурное БСЗ](../theory/single-circuit.md) · [Двухконтурное БСЗ](../theory/dual-circuit.md).
+- [Типовой список компонентов](../components/buy-list.md).
+- [Руководство → Сборка, проверка, настройка](../guide/build-circuit.md).
+- [Видео-архив](../videos/index.md).

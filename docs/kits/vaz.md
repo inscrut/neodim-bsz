@@ -84,4 +84,13 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md)
+[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../guide/hall-sensor-mod.md)
+
+## Смотрите также {#see-also}
+
+- [Распределитель 30.3706 / 3810.3706](../distributors/distributor-303706-3810.md).
+- [Распределитель 40.3706](../distributors/distributor-403706.md).
+- [Двухконтурное БСЗ](../theory/dual-circuit.md) — схема и принцип.
+- [Типовой список компонентов → двухконтурная система](../components/buy-list.md#parts-dual-circuit).
+- [Руководство → Сборка, проверка, настройка](../guide/build-circuit.md).
+- [Видео-архив](../videos/index.md).

@@ -25,3 +25,10 @@
 | Ozon | [карточка товара](https://ozon.ru/product/1845914359) |
 | SKU | **1845914359** |
 | Артикул поиска | **[Neodim_prov_dbsz_std2105](https://www.ozon.ru/search/?text=Neodim_prov_dbsz_std2105)** |
+
+## Смотрите также {#see-also}
+
+- [Типовой список компонентов](buy-list.md).
+- [Коммутатор 76.3774](commutator-763774.md) · [Катушки зажигания](ignition-coils.md).
+- [Двухконтурное БСЗ](../theory/dual-circuit.md) · [Четырёхконтурное БСЗ](../theory/four-circuit.md).
+- [Руководство → Алгоритм проверки БСЗ → разъёмы](../guide/bsz-check-algorithm.md#vaz-2105-2121-harness-connectors).

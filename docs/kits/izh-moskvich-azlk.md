@@ -52,4 +52,12 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-Готовые датчики 1 шт. / 2 шт.: [Датчик Холла](../components/hall-sensor.md#neodim-hall-kits). Подробнее о доработке: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../instructions/video-hall-sensor-mod.md).
+Готовые датчики 1 шт. / 2 шт.: [Датчик Холла](../components/hall-sensor.md#neodim-hall-kits). Подробнее о доработке: [Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../guide/hall-sensor-mod.md).
+
+## Смотрите также {#see-also}
+
+- [Распределители Р-147](../distributors/distributor-r147.md) · [4701.3706](../distributors/distributor-47013706.md) · [4708.3706](../distributors/distributor-47083706.md).
+- [Одноконтурное БСЗ](../theory/single-circuit.md) · [Двухконтурное БСЗ](../theory/dual-circuit.md).
+- [Типовой список компонентов](../components/buy-list.md).
+- [Руководство → Сборка, проверка, настройка](../guide/build-circuit.md).
+- [Видео-архив](../videos/index.md).

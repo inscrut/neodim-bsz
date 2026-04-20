@@ -33,3 +33,10 @@
 - [Одноконтурное БСЗ](../theory/single-circuit.md)
 - [Двухконтурное БСЗ](../theory/dual-circuit.md)
 - [Четырёхконтурное БСЗ](../theory/four-circuit.md)
+
+## Смотрите также {#see-also}
+
+- [Датчик Холла](hall-sensor.md) — пара коммутатору по сигнальной цепи.
+- [Катушки зажигания](ignition-coils.md) · [Жгут проводки БСЗ](wiring-harness-dbsz.md).
+- [Руководство → Алгоритм проверки БСЗ](../guide/bsz-check-algorithm.md#commutator-check).
+- [Проблемы и решения → Коммутаторы](../guide/problems-and-solutions.md#commutators-topic).
