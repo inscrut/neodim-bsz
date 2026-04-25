@@ -176,13 +176,14 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
-  - С чего начать: guide/index.md
-  - Теория БСЗ:
-      - theory/index.md
-      - Одноконтурное БСЗ: theory/single-circuit.md
-      - Двухконтурное БСЗ: theory/dual-circuit.md
-      - Трёхконтурное БСЗ: theory/three-circuit.md
-      - Четырёхконтурное БСЗ: theory/four-circuit.md
+  - С чего начать: 
+      - guide/index.md
+      - Теория БСЗ: 
+          - theory/index.md
+          - Одноконтурное БСЗ: theory/single-circuit.md
+          - Двухконтурное БСЗ: theory/dual-circuit.md
+          - Трёхконтурное БСЗ: theory/three-circuit.md
+          - Четырёхконтурное БСЗ: theory/four-circuit.md
   - Руководство:
       - Сборка системы по схеме: guide/build-circuit.md
       - Подключение тахометра (два контура): guide/tachometer-connection.md
