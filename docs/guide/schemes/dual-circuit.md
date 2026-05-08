@@ -71,7 +71,7 @@
 ## Смотрите также {#see-also}
 
 - [Одноконтурное БСЗ](single-circuit.md) · [Трёхконтурное БСЗ](three-circuit.md) · [Четырёхконтурное БСЗ](four-circuit.md).
-- [Руководство → Подключение тахометра](../guide/tachometer-connection.md) · [Сборка системы](../guide/build-circuit.md).
+- [Руководство → Подключение тахометра](../guide/tachometer-connection.md) · [Сборка системы](build-circuit.md).
 - [Типовой список компонентов → двухконтурная система](../components/buy-list.md#parts-dual-circuit).
 - [Датчик Холла](../components/hall-sensor.md) · [Коммутатор 76.3774](../components/commutator-763774.md) · [Жгут проводки БСЗ](../components/wiring-harness-dbsz.md).
 - [Проблемы и решения → Двухконтурное: рассинхрон](../guide/problems-and-solutions.md#dual-circuit-desync).
