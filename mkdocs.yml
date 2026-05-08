@@ -89,6 +89,13 @@ plugins:
   - redirects:
       redirect_maps:
         # Перенос раздела «Схемы БСЗ» → «Руководство»
+        # Перенос «Теория БСЗ» → «Руководство»
+        theory/index.md: guide/theory.md
+        # Перенос «Схемы БСЗ» → «Руководство/Схемы»
+        theory/single-circuit.md: guide/schemes/single-circuit.md
+        theory/dual-circuit.md: guide/schemes/dual-circuit.md
+        theory/three-circuit.md: guide/schemes/three-circuit.md
+        theory/four-circuit.md: guide/schemes/four-circuit.md
         theory/build-circuit.md: guide/build-circuit.md
         # Перенос «Настройка и диагностика» → «Руководство»
         service/bsz-check-algorithm.md: guide/bsz-check-algorithm.md
@@ -176,15 +183,14 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
-  - С чего начать: 
-      - guide/index.md
-      - Теория БСЗ: 
-          - theory/index.md
-          - Одноконтурное БСЗ: theory/single-circuit.md
-          - Двухконтурное БСЗ: theory/dual-circuit.md
-          - Трёхконтурное БСЗ: theory/three-circuit.md
-          - Четырёхконтурное БСЗ: theory/four-circuit.md
+  - Схемы:
+      - Одноконтурное БСЗ: guide/schemes/single-circuit.md
+      - Двухконтурное БСЗ: guide/schemes/dual-circuit.md
+      - Трёхконтурное БСЗ: guide/schemes/three-circuit.md
+      - Четырёхконтурное БСЗ: guide/schemes/four-circuit.md
+  - С чего начать: guide/index.md
   - Руководство:
+      - Теория БСЗ: guide/theory.md
       - Сборка системы по схеме: guide/build-circuit.md
       - Подключение тахометра (два контура): guide/tachometer-connection.md
       - Алгоритм проверки БСЗ: guide/bsz-check-algorithm.md

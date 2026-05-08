@@ -8,7 +8,7 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-**Статьи:** [Датчик Холла](../components/hall-sensor.md) · [Руководство → Доработка датчика Холла](../guide/hall-sensor-mod.md).
+**Статьи:** [Датчик Холла](components/hall-sensor.md) · [Руководство → Доработка датчика Холла](guide/hall-sensor-mod.md).
 
 ---
 
@@ -16,7 +16,7 @@
 
 --8<-- "snippets/vk-install-kits-new.md"
 
-**Статьи:** [ЗАЗ / ЛуАЗ](../kits/zaz-luaz.md) · [Иж / Москвич / АЗЛК](../kits/izh-moskvich-azlk.md).
+**Статьи:** [ЗАЗ / ЛуАЗ](kits/zaz-luaz.md) · [Иж / Москвич / АЗЛК](kits/izh-moskvich-azlk.md).
 
 ---
 
@@ -24,7 +24,7 @@
 
 --8<-- "snippets/vk-install-kits-old.md"
 
-**Статья:** [ЗАЗ / ЛуАЗ](../kits/zaz-luaz.md).
+**Статья:** [ЗАЗ / ЛуАЗ](kits/zaz-luaz.md).
 
 ---
 
@@ -32,7 +32,7 @@
 
 --8<-- "snippets/vk-install-gaz-uaz.md"
 
-**Статья:** [ГАЗ / УАЗ](../kits/gaz-uaz.md).
+**Статья:** [ГАЗ / УАЗ](kits/gaz-uaz.md).
 
 ---
 
@@ -40,7 +40,7 @@
 
 --8<-- "snippets/vk-install-vaz-303706.md"
 
-**Статья:** [ВАЗ — трамблёр 30.3706 / 3810.3706](../kits/vaz.md#distributor-303706-3810-classic).
+**Статья:** [ВАЗ — трамблёр 30.3706 / 3810.3706](kits/vaz.md#distributor-303706-3810-classic).
 
 ---
 
@@ -48,7 +48,7 @@
 
 --8<-- "snippets/vk-install-vaz-403706.md"
 
-**Статья:** [ВАЗ — трамблёр 40.3706](../kits/vaz.md#distributor-403706-fwd).
+**Статья:** [ВАЗ — трамблёр 40.3706](kits/vaz.md#distributor-403706-fwd).
 
 ---
 
@@ -56,16 +56,16 @@
 
 --8<-- "snippets/vk-install-zil-v8.md"
 
-**Статья:** [ЗИЛ / ГАЗ (V8)](../kits/zil-gaz-v8.md).
+**Статья:** [ЗИЛ / ГАЗ (V8)](kits/zil-gaz-v8.md).
 
 ---
 
 ## Полный архив видео {#full-video-archive}
 
-Полный список видео — в [сообществе ВКонтакте](https://vk.com/club220578116). Ссылки и альтернативные каналы — на странице [Контакты](../contact.md).
+Полный список видео — в [сообществе ВКонтакте](https://vk.com/club220578116). Ссылки и альтернативные каналы — на странице [Контакты](contact.md).
 
 ## Смотрите также {#see-also}
 
-- [Руководство](../guide/index.md) — текстовые инструкции по установке, проверке и настройке.
-- [Наборы БСЗ Неодим](../kits/index.md) — комплекты с описанием и артикулами.
-- [Контакты](../contact.md) — группа ВК, Telegram-чат, YouTube.
+- [Руководство](guide/index.md) — текстовые инструкции по установке, проверке и настройке.
+- [Наборы БСЗ Неодим](kits/index.md) — комплекты с описанием и артикулами.
+- [Контакты](contact.md) — группа ВК, Telegram-чат, YouTube.

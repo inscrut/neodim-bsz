@@ -4,9 +4,9 @@
 
 ## Быстрый маршрут {#quick-path}
 
-1. :material-numeric-1-circle: **Подобрать комплект** — [как определить комплект БСЗ](../kits/how-to-choose-kit.md).
-2. :material-numeric-2-circle: **Собрать корзину** — [типовой список компонентов](../components/buy-list.md).
-3. :material-numeric-3-circle: **Изучить схему** — [теория БСЗ](../theory/index.md) по числу контуров.
+1. :material-numeric-1-circle: **Подобрать комплект** — [как определить комплект БСЗ](kits/how-to-choose-kit.md).
+2. :material-numeric-2-circle: **Собрать корзину** — [типовой список компонентов](components/buy-list.md).
+3. :material-numeric-3-circle: **Изучить схему** — [теория БСЗ](guide/theory.md) по числу контуров.
 4. :material-numeric-4-circle: **Собрать систему** — [сборка по схеме](build-circuit.md).
 5. :material-numeric-5-circle: **Проверить** — [алгоритм проверки БСЗ](bsz-check-algorithm.md).
 6. :material-numeric-6-circle: **Настроить** — [момент зажигания](ignition-timing.md).
@@ -44,7 +44,7 @@
 
 ## Смотрите также {#see-also}
 
-- [Теория БСЗ](../theory/index.md) — принципы одно-, двух-, трёх- и четырёхконтурного БСЗ.
-- [Наборы БСЗ Неодим](../kits/index.md) — список комплектов по моделям автомобилей.
-- [Компоненты](../components/index.md) — датчик Холла, коммутатор, катушки, жгут, МД-1.
-- [Видео-архив](../videos/index.md) — установка и доработка в видеороликах.
+- [Теория БСЗ](guide/theory.md) — принципы одно-, двух-, трёх- и четырёхконтурного БСЗ.
+- [Наборы БСЗ Неодим](kits/index.md) — список комплектов по моделям автомобилей.
+- [Компоненты](components/index.md) — датчик Холла, коммутатор, катушки, жгут, МД-1.
+- [Видео-архив](videos/index.md) — установка и доработка в видеороликах.

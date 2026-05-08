@@ -1,6 +1,6 @@
 # ЗИЛ / ГАЗ (V8) — комплекты БСЗ Неодим {#kits-zil-gaz-v8}
 
-Четырёхконтурное (подводное) зажигание: [Четырёхконтурное БСЗ](../theory/four-circuit.md).
+Четырёхконтурное (подводное) зажигание: [Четырёхконтурное БСЗ](guide/schemes/four-circuit.md).
 
 Комплекты рассчитаны на распределители **24.3706**, **2402.3706**, **2402.3706-10** и аналоги; крышки и втулки уточняйте по маркировке и типу вала (старый / новый образец).
 
@@ -92,12 +92,12 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../guide/hall-sensor-mod.md)
+[Датчик Холла](components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](guide/hall-sensor-mod.md)
 
 ## Смотрите также {#see-also}
 
-- [Распределители 24.3706](../distributors/distributor-243706.md) · [2402.3706](../distributors/distributor-2402.md) · [Р133-01](../distributors/distributor-r133-01.md).
-- [Четырёхконтурное БСЗ](../theory/four-circuit.md) — принципиальная схема для V8.
-- [Типовой список компонентов → четырёхконтурная система](../components/buy-list.md#parts-four-circuit).
-- [Руководство → Сборка системы по схеме](../guide/build-circuit.md).
-- [Видео-архив](../videos/index.md).
+- [Распределители 24.3706](distributors/distributor-243706.md) · [2402.3706](distributors/distributor-2402.md) · [Р133-01](distributors/distributor-r133-01.md).
+- [Четырёхконтурное БСЗ](guide/schemes/four-circuit.md) — принципиальная схема для V8.
+- [Типовой список компонентов → четырёхконтурная система](components/buy-list.md#parts-four-circuit).
+- [Руководство → Сборка системы по схеме](guide/build-circuit.md).
+- [Видео-архив](videos/index.md).
