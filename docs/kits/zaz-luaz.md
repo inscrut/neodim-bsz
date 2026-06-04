@@ -2,9 +2,9 @@
 
 ## Одноконтурная система {#single-circuit-system}
 
-Наборы для переделки контактного трамблёра ЗАЗ / ЛуАЗ на БСЗ на базе [датчика Холла](components/hall-sensor.md) ВАЗ 2108.
+Наборы для переделки контактного трамблёра ЗАЗ / ЛуАЗ на БСЗ на базе [датчика Холла](../components/hall-sensor.md) ВАЗ 2108.
 
-Преимущества БСЗ перед КСЗ: [Одноконтурное БСЗ](guide/schemes/single-circuit.md).
+Преимущества БСЗ перед КСЗ: [Одноконтурное БСЗ](../guide/schemes/single-circuit.md).
 
 ### Распределитель старого образца (Р-114) {#distributor-old-r114}
 
@@ -12,7 +12,7 @@
 
 | Параметр | Значение |
 |----------|----------|
-| Распределитель | [Р-107, Р-118, Р-114](distributors/distributor-r114.md) |
+| Распределитель | [Р-107, Р-118, Р-114](../distributors/distributor-r114.md) |
 | Ozon | [карточка товара](https://ozon.ru/product/1385734551) |
 | SKU | **1385734551** |
 | Артикул поиска | **[Neodim_bsz_114](https://www.ozon.ru/search/?text=Neodim_bsz_114)** |
@@ -36,9 +36,9 @@
 
 ## Двухконтурная система {#dual-circuit-system}
 
-Подробнее: [Двухконтурное БСЗ](guide/schemes/dual-circuit.md).
+Подробнее: [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md).
 
-Двухконтурный комплект сделан только под **17.3706** — логическая замена семейства [Р-114](distributors/distributor-r114.md) с начала 1980-х.
+Двухконтурный комплект сделан только под **17.3706** — логическая замена семейства [Р-114](../distributors/distributor-r114.md) с начала 1980-х.
 
 ### Комплект под 17.3706 (двухконтурный) {#kit-dual-173706}
 
@@ -79,7 +79,7 @@
 | Артикул поиска | **[Neodim_cvr_zaz_crbn](https://www.ozon.ru/search/?text=Neodim_cvr_zaz_crbn)** |
 | Материал | ASA+CF |
 
-Два датчика для двухконтурного набора, доработка: [Датчик Холла](components/hall-sensor.md).
+Два датчика для двухконтурного набора, доработка: [Датчик Холла](../components/hall-sensor.md).
 
 ---
 
@@ -97,12 +97,12 @@
 
 --8<-- "snippets/vk-hall-sensor-mod.md"
 
-[Датчик Холла](components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](guide/hall-sensor-mod.md)
+[Датчик Холла](../components/hall-sensor.md#vk-hall-sensor-video) · [инструкция](../guide/hall-sensor-mod.md)
 
 ## Смотрите также {#see-also}
 
-- [Распределители Р-107, Р-118, Р-114](distributors/distributor-r114.md) · [17.3706](distributors/distributor-173706.md).
-- [Одноконтурное БСЗ](guide/schemes/single-circuit.md) · [Двухконтурное БСЗ](guide/schemes/dual-circuit.md).
-- [Типовой список компонентов](components/buy-list.md).
-- [Руководство → Сборка, проверка, настройка](guide/build-circuit.md).
-- [Видео-архив](videos/index.md).
+- [Распределители Р-107, Р-118, Р-114](../distributors/distributor-r114.md) · [17.3706](../distributors/distributor-173706.md).
+- [Одноконтурное БСЗ](../guide/schemes/single-circuit.md) · [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md).
+- [Типовой список компонентов](../components/buy-list.md).
+- [Руководство → Сборка, проверка, настройка](../guide/build-circuit.md).
+- [Видео-архив](../videos/index.md).

@@ -1,6 +1,6 @@
 # Распределитель Р-147 {#distributor-r147}
 
-Трамблёр линейки Иж / Москвич / АЗЛК. Комплекты Неодим V2 COMBO совместно с [4701.3706](distributor-47013706.md) и [4708.3706](distributor-47083706.md): [Иж / Москвич / АЗЛК](kits/izh-moskvich-azlk.md).
+Трамблёр линейки Иж / Москвич / АЗЛК. Комплекты Неодим V2 COMBO совместно с [4701.3706](distributor-47013706.md) и [4708.3706](distributor-47083706.md): [Иж / Москвич / АЗЛК](../kits/izh-moskvich-azlk.md).
 
 ## Идентификация по корпусу {#id-by-housing}
 
@@ -10,7 +10,7 @@
 
 ## Смотрите также {#see-also}
 
-- [Иж / Москвич / АЗЛК — комплекты БСЗ](kits/izh-moskvich-azlk.md).
+- [Иж / Москвич / АЗЛК — комплекты БСЗ](../kits/izh-moskvich-azlk.md).
 - [4701.3706](distributor-47013706.md) · [4708.3706](distributor-47083706.md).
-- [Одноконтурное БСЗ](guide/schemes/single-circuit.md) · [Двухконтурное БСЗ](guide/schemes/dual-circuit.md).
-- [Как определить необходимый комплект БСЗ](kits/how-to-choose-kit.md).
+- [Одноконтурное БСЗ](../guide/schemes/single-circuit.md) · [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md).
+- [Как определить необходимый комплект БСЗ](../kits/how-to-choose-kit.md).

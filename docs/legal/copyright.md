@@ -32,7 +32,7 @@
 
 1. какой материал затронут;
 2. URL страницы;
-3. контакт: [admin@neodim.tech](mailto:admin@neodim.tech) (см. также [Контакты](contact.md))
+3. контакт: [admin@neodim.tech](mailto:admin@neodim.tech) (см. также [Контакты](../contact.md))
 
 ## 7. Применимое право {#copyright-section-7}
 

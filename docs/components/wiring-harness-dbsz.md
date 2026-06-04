@@ -30,5 +30,5 @@
 
 - [Типовой список компонентов](buy-list.md).
 - [Коммутатор 76.3774](commutator-763774.md) · [Катушки зажигания](ignition-coils.md).
-- [Двухконтурное БСЗ](guide/schemes/dual-circuit.md) · [Четырёхконтурное БСЗ](guide/schemes/four-circuit.md).
-- [Руководство → Алгоритм проверки БСЗ → разъёмы](guide/bsz-check-algorithm.md#vaz-2105-2121-harness-connectors).
+- [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md) · [Четырёхконтурное БСЗ](../guide/schemes/four-circuit.md).
+- [Руководство → Алгоритм проверки БСЗ → разъёмы](../guide/bsz-check-algorithm.md#vaz-2105-2121-harness-connectors).

@@ -18,7 +18,7 @@
 
 ## Подключение {#wiring}
 
-Собирайте цепь по схеме [одноконтурного БСЗ](guide/schemes/single-circuit.md). Тот же коммутатор подходит для [двухконтурной](guide/schemes/dual-circuit.md) схемы ([wasted spark](https://en.wikipedia.org/wiki/Wasted_spark_system)) и [четырёхконтурной](guide/schemes/four-circuit.md) для V8.
+Собирайте цепь по схеме [одноконтурного БСЗ](../guide/schemes/single-circuit.md). Тот же коммутатор подходит для [двухконтурной](../guide/schemes/dual-circuit.md) схемы ([wasted spark](https://en.wikipedia.org/wiki/Wasted_spark_system)) и [четырёхконтурной](../guide/schemes/four-circuit.md) для V8.
 
 ## Подлинность РОМБ {#romb-authenticity}
 
@@ -30,13 +30,13 @@
 
 ## Ссылки по схемам {#schematic-links}
 
-- [Одноконтурное БСЗ](guide/schemes/single-circuit.md)
-- [Двухконтурное БСЗ](guide/schemes/dual-circuit.md)
-- [Четырёхконтурное БСЗ](guide/schemes/four-circuit.md)
+- [Одноконтурное БСЗ](../guide/schemes/single-circuit.md)
+- [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md)
+- [Четырёхконтурное БСЗ](../guide/schemes/four-circuit.md)
 
 ## Смотрите также {#see-also}
 
 - [Датчик Холла](hall-sensor.md) — пара коммутатору по сигнальной цепи.
 - [Катушки зажигания](ignition-coils.md) · [Жгут проводки БСЗ](wiring-harness-dbsz.md).
-- [Руководство → Алгоритм проверки БСЗ](guide/bsz-check-algorithm.md#commutator-check).
-- [Проблемы и решения → Коммутаторы](guide/problems-and-solutions.md#commutators-topic).
+- [Руководство → Алгоритм проверки БСЗ](../guide/bsz-check-algorithm.md#commutator-check).
+- [Проблемы и решения → Коммутаторы](../guide/problems-and-solutions.md#commutators-topic).
