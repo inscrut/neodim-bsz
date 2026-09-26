@@ -48,6 +48,33 @@
   --md-typeset-a-color:         #FFAA44;
 }
 
+/* Главная: ряд CTA-кнопок */
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.9rem 0 1.3rem;
+}
+
+/* Главная: центрирование hero-иллюстрации */
+.home-hero-img {
+  display: block;
+  margin: 0.6rem auto;
+}
+
+/* Главная: ряд фото маркировок трамблёров */
+.home-photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.home-photo-row img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Правовые ссылки в футере (override overrides/partials/copyright.html) */
 .md-copyright__legal {
   margin-bottom: 0.3rem;

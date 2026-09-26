@@ -6,6 +6,7 @@
 
 ## Смотрите также {#see-also}
 
+- [Все модели в таблице маркировок](index.md).
 - [Иж / Москвич / АЗЛК — комплекты БСЗ](../kits/izh-moskvich-azlk.md).
 - [Р-147](distributor-r147.md) · [4701.3706](distributor-47013706.md).
 - [Одноконтурное БСЗ](../guide/schemes/single-circuit.md) · [Двухконтурное БСЗ](../guide/schemes/dual-circuit.md).

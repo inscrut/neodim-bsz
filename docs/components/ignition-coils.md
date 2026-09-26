@@ -2,9 +2,9 @@
 
 ## Одноконтурная система зажигания {#coils-single-circuit}
 
-1 шт. **HOFER HF 750 301**
+1 шт. **HOFER HF 750 302**
 
-![HOFER HF 750 301](../assets/wiki/coils/2105-hofer.webp){ width="360" }
+![HOFER HF 750 302](../assets/wiki/coils/2105-hofer.webp){ width="360" }
 
 ## Двухконтурная система зажигания {#coils-dual-circuit}
 

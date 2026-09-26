@@ -21,7 +21,7 @@ theme:
   name: material
   language: ru
   favicon: https://neodim.tech/tremblor.png
-  logo: https://neodim.tech/tremblor.png
+  logo: images/logo.png
 
   custom_dir: overrides/
 
@@ -187,20 +187,7 @@ extra:
 # Навигация
 nav:
   - Главная: index.md
-  - Схемы:
-      - Одноконтурное БСЗ: guide/schemes/single-circuit.md
-      - Двухконтурное БСЗ: guide/schemes/dual-circuit.md
-      - Трёхконтурное БСЗ: guide/schemes/three-circuit.md
-      - Четырёхконтурное БСЗ: guide/schemes/four-circuit.md
   - С чего начать: guide/index.md
-  - Руководство:
-      - Теория БСЗ: guide/theory.md
-      - Сборка системы по схеме: guide/build-circuit.md
-      - Подключение тахометра (два контура): guide/tachometer-connection.md
-      - Алгоритм проверки БСЗ: guide/bsz-check-algorithm.md
-      - Настройка момента зажигания: guide/ignition-timing.md
-      - Доработка датчика Холла: guide/hall-sensor-mod.md
-      - Проблемы и решения: guide/problems-and-solutions.md
   - Наборы БСЗ Неодим:
       - kits/index.md
       - Как определить комплект: kits/how-to-choose-kit.md
@@ -228,6 +215,19 @@ nav:
           - Р133-01: distributors/distributor-r133-01.md
           - D4R87-07: distributors/distributor-d4r87-07.md
       - Дополнительные товары: kits/ozon-other.md
+  - Руководство:
+      - Теория БСЗ: guide/theory.md
+      - Сборка системы по схеме: guide/build-circuit.md
+      - Подключение тахометра (два контура): guide/tachometer-connection.md
+      - Алгоритм проверки БСЗ: guide/bsz-check-algorithm.md
+      - Настройка момента зажигания: guide/ignition-timing.md
+      - Доработка датчика Холла: guide/hall-sensor-mod.md
+      - Проблемы и решения: guide/problems-and-solutions.md
+  - Схемы:
+      - Одноконтурное БСЗ: guide/schemes/single-circuit.md
+      - Двухконтурное БСЗ: guide/schemes/dual-circuit.md
+      - Трёхконтурное БСЗ: guide/schemes/three-circuit.md
+      - Четырёхконтурное БСЗ: guide/schemes/four-circuit.md
   - Компоненты:
       - components/index.md
       - Типовой список для сборки БСЗ: components/buy-list.md

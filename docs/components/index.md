@@ -20,7 +20,7 @@
 
 -   :material-flash: **[Катушки зажигания](ignition-coils.md)**
 
-    HOFER HF750301/313/304 под одно-, двух- и четырёхконтурные схемы.
+    HOFER HF750302/313/304 под одно-, двух- и четырёхконтурные схемы.
 
 -   :material-cable-data: **[Жгут проводки БСЗ](wiring-harness-dbsz.md)**
 
