@@ -165,10 +165,14 @@ extra:
   consent:
     title: Согласие на cookies
     description: >-
-      Мы используем cookies только для аналитики и улучшения работы сайта.
+      Мы используем cookies для аналитики посещаемости (Яндекс Метрика).
+      Скрипты аналитики загружаются только после вашего согласия.
     actions:
       - accept
+      - reject
       - manage
+    cookies:
+      ya: Яндекс Метрика (аналитика посещаемости)
 
   social:
     - icon: fontawesome/brands/telegram
