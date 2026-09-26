@@ -50,7 +50,7 @@
 | `docs/assets/wiki/` | Фото/иллюстрации оборудования (tramblers, kits, schemes, coils, commutator и т.д.) |
 | `docs/assets/ozon/` | Фото товаров с Ozon |
 | `docs/stylesheets/extra.css` | Кастомные стили (цветовая схема, VK-виджеты, футер) |
-| `overrides/` | Кастомный `main.html` (SEO meta, Яндекс.Метрика, Google Analytics, VK API) |
+| `overrides/` | Кастомный `main.html` (SEO meta, Яндекс.Метрика с загрузкой после согласия на cookies, VK API) |
 | `items/` | Данные товаров (CSV, JSON) для автоматической сборки карточек Ozon |
 | `scripts/` | `merge_ozon_export.py` — скрипт обработки экспорта Ozon |
 
@@ -218,8 +218,7 @@ nav:
 
 | Сервис | ID/ключ |
 |--------|---------|
-| Яндекс.Метрика | `107707686` |
-| Google Analytics | `G-C671TWD032` |
+| Яндекс.Метрика (загружается только после согласия в cookie-баннере) | `107707686` |
 | VK API (`openapi.js?168`) | VK-виджеты группы и чата |
 | Open Graph | `og:image` → `https://neodim.tech/tremblor.png` |
 | Twitter Card | `summary_large_image` |
